@@ -1,0 +1,41 @@
+#intro {
+  @include gradient;
+  padding-top: 5.25rem;
+  width: 100%;
+  height: 100%;
+  .container {
+    .row {
+      .left_hero {
+        padding-bottom: 0.5rem;
+      }
+      .bordar{
+        border: 1px solid blue;
+      }
+      .right_hero {
+        padding-bottom: 0.5rem;
+        width: 80%;
+
+        // a {
+        //   @include absoluteCenter;
+
+        //   i {
+        //     font-size: 3.75rem;
+        //     color: $secendary;
+        //   }
+
+        //   .hero_animation {
+        //     border: 0.4rem solid $white;
+        //     height: 3.75rem;
+        //     width: 3.75rem;
+        //     border-radius: 50%;
+        //     animation: pulseBordar 1.5s linear infinite;
+        //   }
+
+        //   .bordar2 {
+        //     animation-delay: 0.75s;
+        //   }
+        // }
+      }
+    }
+  }
+}

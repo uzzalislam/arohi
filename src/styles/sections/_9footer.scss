@@ -1,0 +1,97 @@
+.footer {
+  background-color: $footer;
+
+  // top footer
+  .top_footer {
+    .icon {
+      font-size: 3rem;
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.25rem;
+      color: $white;
+      &:hover {
+        color: $primary;
+      }
+    }
+    p {
+      color: $gray;
+      font-weight: 500;
+    }
+  }
+
+  // social content
+  .social {
+    background-color: $semigray;
+    .text {
+      font-weight: 500;
+    }
+    a {
+      text-decoration: none;
+      color: $white;
+      margin: 0.5rem;
+      font-size: 1.25rem;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  // company info
+  .footer_buttom {
+    h4 {
+      font-weight: 500;
+    }
+
+    .hr_1 {
+      height: 0.1rem;
+      width: 7rem;
+    }
+    .hr_2 {
+      height: 0.1rem;
+      width: 2.5rem;
+    }
+    .hr_3 {
+      height: 0.1rem;
+      width: 5.5rem;
+    }
+    .hr_4 {
+      height: 0.1rem;
+      width: 2.5rem;
+    }
+    .hr_5 {
+      height: 0.1rem;
+      width: 7rem;
+    }
+    p {
+      color: $gray;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: $gray;
+      font-weight: 500;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  // copyright section
+  .copyright {
+    background-color: $black;
+    padding: 2rem 0;
+
+    .style {
+      color: $gray-600;
+
+      a {
+        color: $gray-300;
+        text-decoration: none;
+        &:hover{
+            color: $primary;
+        }
+      }
+    }
+  }
+}

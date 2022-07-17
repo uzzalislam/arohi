@@ -1,0 +1,20 @@
+
+// heading line 
+.headingLine::before {
+    content: "";
+    width: 10rem;
+    height: 0.125rem;
+    display: block;
+    background-color: $primary;
+    margin: 0 auto;
+  }
+  .headingLine::after {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    background-color: $primary;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+

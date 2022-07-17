@@ -1,0 +1,16 @@
+.services {
+  position: relative;
+  .right_content {
+    text-align: center;
+  }
+  .icon {
+    font-size: 1.5rem;
+    display: block
+  }
+  h3 {
+    @include gradient-text;
+  }
+  img {
+    width: 70%;
+  }
+}

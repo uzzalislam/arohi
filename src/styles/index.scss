@@ -1,0 +1,35 @@
+// root styles here
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+// Custom Bootstrap styles have been imported here
+@import "custom";
+
+// Theme references have been imported here
+@import "theme";
+
+// All components have been imported here
+@import "components/animations";
+@import "components/buttons";
+@import "components/mixins";
+@import "components/typography";
+
+// All sections have been imported here
+@import "sections/1navbar";
+@import "sections/2intro";
+@import "sections/4servies";
+@import "sections/5testimonials";
+@import "sections/6faq";
+@import "sections/7portfolio";
+@import "sections/7portfolio";
+@import "sections/8get-started";
+@import "sections/9footer";
+
+// media queries have been imported here
+@import "breakpoints/medium";
+@import "breakpoints/large";

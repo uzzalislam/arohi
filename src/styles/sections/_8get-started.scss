@@ -1,0 +1,34 @@
+.get_started {
+  background-color: $gray-200;
+
+  .left_column {
+    @include gradient;
+
+    .left_content {
+    
+      li {
+        list-style: none;
+        font-weight: 500;
+      }
+        li::before {
+          font-family: 'Font Awesome 6 Free';
+          content: "\f00c";
+          font-size: 1.25rem;
+          font-weight: 600;
+          margin-right: .5rem;
+        }
+    }
+  }
+
+  .right_column {
+    position: relative;
+    .right_content {
+      h2{
+        @include gradient-text;
+      }
+button{
+  font-weight: 500;
+}
+    }
+  }
+}

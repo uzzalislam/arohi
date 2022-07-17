@@ -1,0 +1,47 @@
+.testimonials {
+  @include gradient;
+  hr {
+    width: 10rem;
+    height: 0.2rem;
+  }
+
+  &__card {
+    background-color: rgba($white, 0.8);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 0.65rem;
+    i {
+      font-size: 1.5rem;
+      color: rgba($primary, 0.7);
+    }
+    .ratings {
+      padding: 0.25rem;
+      i {
+        font-size: 1rem;
+        color: rgba($primary, 0.7);
+      }
+    }
+  }
+
+  &__pic {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    img {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      border: 0.25rem solid rgba($color: $primary, $alpha: 0.7);
+    }
+  }
+
+  &__name {
+    color: rgba($white, 0.7);
+    padding-top: 3.5rem;
+  }
+  button{
+      font-size: 1rem;
+      color: $white;
+      margin: .25rem;
+  }
+}

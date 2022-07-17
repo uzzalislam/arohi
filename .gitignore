@@ -1,0 +1,5 @@
+# ignore node/webpack dependency directories
+node_modules/
+
+# ignore lock file 
+package-lock.json

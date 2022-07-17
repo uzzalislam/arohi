@@ -1,0 +1,31 @@
+// GRADIENT BACKGROUND
+@mixin gradient {
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.95),
+    rgba($secendary, 0.95)
+  );
+}
+
+// GRADIENT TEXT 
+@mixin gradient-text {
+  display: inline-block;
+  background: linear-gradient(to right, $primary, $secendary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// for middle positioning
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// transition effect 
+@mixin transitionEffect {
+  transition-duration: 1s;
+  transition-property: all;
+  transform: scale(1.2);
+}
